@@ -14,8 +14,6 @@ namespace ServiceProcess.Services
             var requestContext = context as CustomerContext;
             int customerId = requestContext.CustomerId;
 
-            // 
-            
             return result;
         }
     }
